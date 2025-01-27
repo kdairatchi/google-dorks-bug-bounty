@@ -3,101 +3,876 @@ Here’s an updated and expanded list of **Google Dorks for Bug Bounty**, incorp
 ---
 
 ### **1. Bug Bounty Programs & Vulnerability Disclosure Policies**
+Here’s the **cleaned-up and separated list of Google Dorks**, with each dork in its own ```code block``` for easy copying and automation:
+
+---
+
+### **1. Bug Bounty Programs**
 ```
-inurl:/bug-bounty
-inurl:/security
-inurl:security.txt
-inurl:security "reward"
-inurl:/responsible-disclosure
-inurl:/responsible-disclosure/ reward
-inurl:/responsible-disclosure/ swag
-inurl:/responsible-disclosure/ bounty
-inurl:'/responsible disclosure' hoodie
-responsible disclosure swag r=h:com
-responsible disclosure hall of fame
-inurl:responsible disclosure $50
-responsible disclosure europe
-responsible disclosure white hat
-white hat program
-insite:"responsible disclosure" -inurl:nl
-intext responsible disclosure
-site eu responsible disclosure
-site .nl responsible disclosure
-site responsible disclosure
-responsible disclosure:sites
-responsible disclosure r=h:nl
-responsible disclosure r=h:uk
-responsible disclosure r=h:eu
-responsible disclosure bounty r=h:nl
-responsible disclosure bounty r=h:uk
-responsible disclosure bounty r=h:eu
-responsible disclosure swag r=h:nl
-responsible disclosure swag r=h:uk
-responsible disclosure swag r=h:eu
-responsible disclosure reward r=h:nl
-responsible disclosure reward r=h:uk
-responsible disclosure reward r=h:eu
-"powered by bugcrowd" -site:bugcrowd.com
-"submit vulnerability report"
-"submit vulnerability report" | "powered by bugcrowd" | "powered by hackerone"
-site:*.gov.* "responsible disclosure"
-intext:"we take security very seriously"
-site:responsibledisclosure.com
-inurl:'vulnerability-disclosure-policy' reward
-intext:Vulnerability Disclosure site:nl
-intext:Vulnerability Disclosure site:eu
-site:*.*.nl intext:security report reward
-site:*.*.nl intext:responsible disclosure reward
-"security vulnerability" "report"
-inurl"security report"
-"responsible disclosure" university
-inurl:/responsible-disclosure/ university
-buy bitcoins "bug bounty"
-inurl:/security ext:txt "contact"
-"powered by synack"
-intext:responsible disclosure bounty
-inurl: private bugbountyprogram
-inurl:/.well-known/security ext:txt
-inurl:/.well-known/security ext:txt intext:hackerone
-inurl:/.well-known/security ext:txt -hackerone -bugcrowd -synack -openbugbounty
-inurl:reporting-security-issues
-inurl:security-policy.txt ext:txt
-site:*.*.* inurl:bug inurl:bounty
-site:help.*.* inurl:bounty
-site:support.*.* intext:security report reward
-intext:security report monetary inurl:security
-intext:security report reward inurl:report
-site:security.*.* inurl: bounty
-site:*.*.de inurl:bug inurl:bounty
-site:*.*.uk intext:security report reward
-site:*.*.cn intext:security report reward
-"vulnerability reporting policy"
-"van de melding met een minimum van een" -site:responsibledisclosure.nl
-inurl:responsible-disclosure-policy
-"If you believe you've found a security vulnerability"
-intext:"BugBounty" and intext:"BTC" and intext:"reward"
-intext:bounty inurl:/security
-inurl:"bug bounty" and intext:"€" and inurl:/security
-inurl:"bug bounty" and intext:"$" and inurl:/security
-inurl:"bug bounty" and intext:"INR" and inurl:/security
-inurl:/security.txt "mailto*" -github.com  -wikipedia.org -portswigger.net -magento
-/trust/report-a-vulnerability
-site:*.edu intext:security report vulnerability
-"cms" bug bounty
-"If you find a security issue"  "reward"
-"responsible disclosure" intext:"you may be eligible for monetary compensation"
-inurl: "responsible disclosure", "bug bounty", "bugbounty"
-intext: we offer a bounty
-responsible disclosure inurl:in
-site:*.br responsible disclosure
-site:*.at responsible disclosure
-site:*.be responsible disclosure
-site:*.au responsible disclosure
-site:*/security.txt "bounty"
-inurl:bug bounty intext:"rupees"
-inurl:bug bounty intext:"₹"
-inurl:responsible disclosure intext:"INR"
+inurl:/bug-bounty-program
 ```
+```
+inurl:/security.txt "bounty"
+```
+```
+inurl:/vulnerability-disclosure-policy
+```
+```
+inurl:/responsible-disclosure "reward"
+```
+```
+inurl:/security "report a vulnerability"
+```
+```
+inurl:/security "submit a bug"
+```
+```
+inurl:/security "submit a report"
+```
+```
+inurl:/security "submit a finding"
+```
+```
+inurl:/security "submit a disclosure"
+```
+```
+inurl:/security "submit a security issue"
+```
+```
+inurl:/security "submit a security vulnerability"
+```
+```
+inurl:/security "submit a security bug"
+```
+```
+inurl:/security "submit a security finding"
+```
+```
+inurl:/security "submit a security disclosure"
+```
+```
+inurl:/security "submit a security report"
+```
+```
+inurl:/security "submit a security issue report"
+```
+```
+inurl:/security "submit a security vulnerability report"
+```
+```
+inurl:/security "submit a security bug report"
+```
+```
+inurl:/security "submit a security finding report"
+```
+```
+inurl:/security "submit a security disclosure report"
+```
+```
+inurl:/security "submit a security issue disclosure"
+```
+```
+inurl:/security "submit a security vulnerability disclosure"
+```
+```
+inurl:/security "submit a security bug disclosure"
+```
+```
+inurl:/security "submit a security finding disclosure"
+```
+```
+inurl:/security "submit a security report disclosure"
+```
+```
+inurl:/security "submit a security issue report disclosure"
+```
+```
+inurl:/security "submit a security vulnerability report disclosure"
+```
+```
+inurl:/security "submit a security bug report disclosure"
+```
+```
+inurl:/security "submit a security finding report disclosure"
+```
+```
+inurl:/security "submit a security disclosure report disclosure"
+```
+
+---
+
+### **2. Sensitive Data Exposure**
+```
+inurl:/config.json
+```
+```
+inurl:/config.yml
+```
+```
+inurl:/config.yaml
+```
+```
+inurl:/config.ini
+```
+```
+inurl:/config.php
+```
+```
+inurl:/config.asp
+```
+```
+inurl:/config.aspx
+```
+```
+inurl:/config.jsp
+```
+```
+inurl:/config.cfg
+```
+```
+inurl:/config.xml
+```
+```
+inurl:/config.txt
+```
+```
+inurl:/config.env
+```
+```
+inurl:/config.inc
+```
+```
+inurl:/config.inc.php
+```
+```
+inurl:/config.inc.asp
+```
+```
+inurl:/config.inc.aspx
+```
+```
+inurl:/config.inc.jsp
+```
+```
+inurl:/config.inc.cfg
+```
+```
+inurl:/config.inc.xml
+```
+```
+inurl:/config.inc.txt
+```
+```
+inurl:/config.inc.env
+```
+```
+inurl:/config.inc.ini
+```
+```
+inurl:/config.inc.yml
+```
+```
+inurl:/config.inc.yaml
+```
+```
+inurl:/config.inc.php.bak
+```
+```
+inurl:/config.inc.asp.bak
+```
+```
+inurl:/config.inc.aspx.bak
+```
+```
+inurl:/config.inc.jsp.bak
+```
+```
+inurl:/config.inc.cfg.bak
+```
+```
+inurl:/config.inc.xml.bak
+```
+```
+inurl:/config.inc.txt.bak
+```
+```
+inurl:/config.inc.env.bak
+```
+```
+inurl:/config.inc.ini.bak
+```
+```
+inurl:/config.inc.yml.bak
+```
+```
+inurl:/config.inc.yaml.bak
+```
+
+---
+
+### **3. API Endpoints**
+```
+inurl:/api/v1
+```
+```
+inurl:/api/v2
+```
+```
+inurl:/api/v3
+```
+```
+inurl:/api/v4
+```
+```
+inurl:/api/v5
+```
+```
+inurl:/api/v6
+```
+```
+inurl:/api/v7
+```
+```
+inurl:/api/v8
+```
+```
+inurl:/api/v9
+```
+```
+inurl:/api/v10
+```
+```
+inurl:/api/v1/
+```
+```
+inurl:/api/v2/
+```
+```
+inurl:/api/v3/
+```
+```
+inurl:/api/v4/
+```
+```
+inurl:/api/v5/
+```
+```
+inurl:/api/v6/
+```
+```
+inurl:/api/v7/
+```
+```
+inurl:/api/v8/
+```
+```
+inurl:/api/v9/
+```
+```
+inurl:/api/v10/
+```
+```
+inurl:/api/v1/swagger
+```
+```
+inurl:/api/v2/swagger
+```
+```
+inurl:/api/v3/swagger
+```
+```
+inurl:/api/v4/swagger
+```
+```
+inurl:/api/v5/swagger
+```
+```
+inurl:/api/v6/swagger
+```
+```
+inurl:/api/v7/swagger
+```
+```
+inurl:/api/v8/swagger
+```
+```
+inurl:/api/v9/swagger
+```
+```
+inurl:/api/v10/swagger
+```
+```
+inurl:/api/v1/swagger.json
+```
+```
+inurl:/api/v2/swagger.json
+```
+```
+inurl:/api/v3/swagger.json
+```
+```
+inurl:/api/v4/swagger.json
+```
+```
+inurl:/api/v5/swagger.json
+```
+```
+inurl:/api/v6/swagger.json
+```
+```
+inurl:/api/v7/swagger.json
+```
+```
+inurl:/api/v8/swagger.json
+```
+```
+inurl:/api/v9/swagger.json
+```
+```
+inurl:/api/v10/swagger.json
+```
+```
+inurl:/api/v1/swagger.yaml
+```
+```
+inurl:/api/v2/swagger.yaml
+```
+```
+inurl:/api/v3/swagger.yaml
+```
+```
+inurl:/api/v4/swagger.yaml
+```
+```
+inurl:/api/v5/swagger.yaml
+```
+```
+inurl:/api/v6/swagger.yaml
+```
+```
+inurl:/api/v7/swagger.yaml
+```
+```
+inurl:/api/v8/swagger.yaml
+```
+```
+inurl:/api/v9/swagger.yaml
+```
+```
+inurl:/api/v10/swagger.yaml
+```
+
+---
+
+### **4. Misconfigured Cloud Storage**
+```
+site:s3.amazonaws.com "example.com"
+```
+```
+site:blob.core.windows.net "example.com"
+```
+```
+site:googleapis.com "example.com"
+```
+```
+site:drive.google.com "example.com"
+```
+```
+site:dev.azure.com "example.com"
+```
+```
+site:onedrive.live.com "example.com"
+```
+```
+site:digitaloceanspaces.com "example.com"
+```
+```
+site:sharepoint.com "example.com"
+```
+```
+site:s3-external-1.amazonaws.com "example.com"
+```
+```
+site:s3.dualstack.us-east-1.amazonaws.com "example.com"
+```
+```
+site:dropbox.com/s "example.com"
+```
+```
+site:box.com/s "example.com"
+```
+```
+site:docs.google.com inurl:"/d/" "example.com"
+```
+
+---
+
+### **5. Exposed Admin Panels**
+```
+inurl:/admin/login
+```
+```
+inurl:/admin/index.php
+```
+```
+inurl:/admin/dashboard
+```
+```
+inurl:/admin/panel
+```
+```
+inurl:/admin/controlpanel
+```
+```
+inurl:/admin/cp
+```
+```
+inurl:/admin/cpanel
+```
+```
+inurl:/admin/admin.php
+```
+```
+inurl:/admin/admin.asp
+```
+```
+inurl:/admin/admin.aspx
+```
+```
+inurl:/admin/admin.jsp
+```
+```
+inurl:/admin/admin.cfg
+```
+```
+inurl:/admin/admin.xml
+```
+```
+inurl:/admin/admin.txt
+```
+```
+inurl:/admin/admin.env
+```
+```
+inurl:/admin/admin.ini
+```
+```
+inurl:/admin/admin.yml
+```
+```
+inurl:/admin/admin.yaml
+```
+```
+inurl:/admin/admin.php.bak
+```
+```
+inurl:/admin/admin.asp.bak
+```
+```
+inurl:/admin/admin.aspx.bak
+```
+```
+inurl:/admin/admin.jsp.bak
+```
+```
+inurl:/admin/admin.cfg.bak
+```
+```
+inurl:/admin/admin.xml.bak
+```
+```
+inurl:/admin/admin.txt.bak
+```
+```
+inurl:/admin/admin.env.bak
+```
+```
+inurl:/admin/admin.ini.bak
+```
+```
+inurl:/admin/admin.yml.bak
+```
+```
+inurl:/admin/admin.yaml.bak
+```
+
+---
+
+### **6. Exposed Debugging Tools**
+```
+inurl:/debug
+```
+```
+inurl:/debug/console
+```
+```
+inurl:/debug/log
+```
+```
+inurl:/debug/logs
+```
+```
+inurl:/debug/error
+```
+```
+inurl:/debug/errors
+```
+```
+inurl:/debug/info
+```
+```
+inurl:/debug/info.php
+```
+```
+inurl:/debug/info.asp
+```
+```
+inurl:/debug/info.aspx
+```
+```
+inurl:/debug/info.jsp
+```
+```
+inurl:/debug/info.cfg
+```
+```
+inurl:/debug/info.xml
+```
+```
+inurl:/debug/info.txt
+```
+```
+inurl:/debug/info.env
+```
+```
+inurl:/debug/info.ini
+```
+```
+inurl:/debug/info.yml
+```
+```
+inurl:/debug/info.yaml
+```
+```
+inurl:/debug/info.php.bak
+```
+```
+inurl:/debug/info.asp.bak
+```
+```
+inurl:/debug/info.aspx.bak
+```
+```
+inurl:/debug/info.jsp.bak
+```
+```
+inurl:/debug/info.cfg.bak
+```
+```
+inurl:/debug/info.xml.bak
+```
+```
+inurl:/debug/info.txt.bak
+```
+```
+inurl:/debug/info.env.bak
+```
+```
+inurl:/debug/info.ini.bak
+```
+```
+inurl:/debug/info.yml.bak
+```
+```
+inurl:/debug/info.yaml.bak
+```
+
+---
+
+### **7. Exposed Git Repositories**
+```
+inurl:/.git/config
+```
+```
+inurl:/.git/HEAD
+```
+```
+inurl:/.git/index
+```
+```
+inurl:/.git/logs
+```
+```
+inurl:/.git/objects
+```
+```
+inurl:/.git/refs
+```
+```
+inurl:/.git/hooks
+```
+```
+inurl:/.git/info
+```
+```
+inurl:/.git/description
+```
+```
+inurl:/.git/COMMIT_EDITMSG
+```
+```
+inurl:/.git/FETCH_HEAD
+```
+```
+inurl:/.git/ORIG_HEAD
+```
+```
+inurl:/.git/config.bak
+```
+```
+inurl:/.git/HEAD.bak
+```
+```
+inurl:/.git/index.bak
+```
+```
+inurl:/.git/logs.bak
+```
+```
+inurl:/.git/objects.bak
+```
+```
+inurl:/.git/refs.bak
+```
+```
+inurl:/.git/hooks.bak
+```
+```
+inurl:/.git/info.bak
+```
+```
+inurl:/.git/description.bak
+```
+```
+inurl:/.git/COMMIT_EDITMSG.bak
+```
+```
+inurl:/.git/FETCH_HEAD.bak
+```
+```
+inurl:/.git/ORIG_HEAD.bak
+```
+
+---
+
+### **8. Exposed Database Files**
+```
+inurl:/db.sql
+```
+```
+inurl:/db.sqlite
+```
+```
+inurl:/db.sqlite3
+```
+```
+inurl:/db.mdb
+```
+```
+inurl:/db.accdb
+```
+```
+inurl:/db.odb
+```
+```
+inurl:/db.dbf
+```
+```
+inurl:/db.db
+```
+```
+inurl:/db.dump
+```
+```
+inurl:/db.backup
+```
+```
+inurl:/db.bak
+```
+```
+inurl:/db.sql.bak
+```
+```
+inurl:/db.sqlite.bak
+```
+```
+inurl:/db.sqlite3.bak
+```
+```
+inurl:/db.mdb.bak
+```
+```
+inurl:/db.accdb.bak
+```
+```
+inurl:/db.odb.bak
+```
+```
+inurl:/db.dbf.bak
+```
+```
+inurl:/db.db.bak
+```
+```
+inurl:/db.dump.bak
+```
+```
+inurl:/db.backup.bak
+```
+```
+inurl:/db.bak.bak
+```
+
+---
+
+### **9. Exposed Backup Files**
+```
+inurl:/backup.zip
+```
+```
+inurl:/backup.tar
+```
+```
+inurl:/backup.tar.gz
+```
+```
+inurl:/backup.rar
+```
+```
+inurl:/backup.7z
+```
+```
+inurl:/backup.sql
+```
+```
+inurl:/backup.sqlite
+```
+```
+inurl:/backup.sqlite3
+```
+```
+inurl:/backup.mdb
+```
+```
+inurl:/backup.accdb
+```
+```
+inurl:/backup.odb
+```
+```
+inurl:/backup.dbf
+```
+```
+inurl:/backup.db
+```
+```
+inurl:/backup.dump
+```
+```
+inurl:/backup.backup
+```
+```
+inurl:/backup.bak
+```
+```
+inurl:/backup.zip.bak
+```
+```
+inurl:/backup.tar.bak
+```
+```
+inurl:/backup.tar.gz.bak
+```
+```
+inurl:/backup.rar.bak
+```
+```
+inurl:/backup.7z.bak
+```
+```
+inurl:/backup.sql.bak
+```
+```
+inurl:/backup.sqlite.bak
+```
+```
+inurl:/backup.sqlite3.bak
+```
+```
+inurl:/backup.mdb.bak
+```
+```
+inurl:/backup.accdb.bak
+```
+```
+inurl:/backup.odb.bak
+```
+```
+inurl:/backup.dbf.bak
+```
+```
+inurl:/backup.db.bak
+```
+```
+inurl:/backup.dump.bak
+```
+```
+inurl:/backup.backup.bak
+```
+```
+inurl:/backup.bak.bak
+```
+
+---
+
+### **10. Exposed Log Files**
+```
+inurl:/logs/access.log
+```
+```
+inurl:/logs/error.log
+```
+```
+inurl:/logs/debug.log
+```
+```
+inurl:/logs/system.log
+```
+```
+inurl:/logs/security.log
+```
+```
+inurl:/logs/audit.log
+```
+```
+inurl:/logs/application.log
+```
+```
+inurl:/logs/server.log
+```
+```
+inurl:/logs/access.log.bak
+```
+```
+inurl:/logs/error.log.bak
+```
+```
+inurl:/logs/debug.log.bak
+```
+
+---
+
+This list is ready for automation and integration into your workflow. Let me know if you need further assistance!
 
 ---
 
@@ -290,69 +1065,188 @@ site:jfrog.io "example[.]com"
 site:firebaseio.com "example[.]com"
 ```
 
----
-
 ### **27. New Dorks from Twitter & Medium**
 ```
 inurl:/wp-json/wp/v2/users
+```
+```
 inurl:/graphql
+```
+```
 inurl:/actuator
+```
+```
 inurl:/console
+```
+```
 inurl:/phpinfo
+```
+```
 inurl:/debug
+```
+```
 inurl:/metrics
+```
+```
 inurl:/env
+```
+```
 inurl:/heapdump
+```
+```
 inurl:/trace
+```
+```
 inurl:/dump
+```
+```
 inurl:/cgi-bin/test.cgi
+```
+```
 inurl:/.git/config
+```
 inurl:/.env
+```
+```
 inurl:/config.json
+```
 inurl:/package.json
+```
+```
 inurl:/webpack.config.js
+```
+```
 inurl:/docker-compose.yml
+```
+```
 inurl:/kibana
+```
+```
 inurl:/elasticsearch
+```
+```
 inurl:/jenkins
+```
+```
 inurl:/swagger-ui
+```
+```
 inurl:/api-docs
+```
+```
 inurl:/graphiql
+```
+```
 inurl:/graphql-playground
+```
+```
 inurl:/graphql-console
+```
+```
 inurl:/graphql-explorer
+```
+```
 inurl:/graphql-voyager
+```
+```
 inurl:/graphql-ide
+```
+```
 inurl:/graphql-editor
+```
+```
 inurl:/graphql-admin
+```
+```
 inurl:/graphql-manager
+```
+```
 inurl:/graphql-monitor
+```
+```
 inurl:/graphql-debug
+```
+```
 inurl:/graphql-tester
+```
+```
 inurl:/graphql-tool
+```
+```
 inurl:/graphql-api
+```
+```
 inurl:/graphql-endpoint
+```
+```
 inurl:/graphql-query
+```
+```
 inurl:/graphql-mutation
+```
+```
 inurl:/graphql-subscription
+```
+```
 inurl:/graphql-schema
+```
+```
 inurl:/graphql-type
+```
+```
 inurl:/graphql-field
+```
+```
 inurl:/graphql-argument
-inurl:/graphql-directive
-inurl:/graphql-fragment
-inurl:/graphql-variable
-inurl:/graphql-operation
-inurl:/graphql-request
-inurl:/graphql-response
-inurl:/graphql-error
-inurl:/graphql-validation
-inurl:/graphql-execution
-inurl:/graphql-introspection
-inurl:/graphql-scalar
-inurl:/graphql-enum
-inurl:/graphql-input
-inurl:/graphql-interface
-inurl:/graphql-union
+```
+```
 inurl:/graphql-directive
 ```
+```
+inurl:/graphql-fragment
+```
+```
+inurl:/graphql-variable
+```
+```
+inurl:/graphql-operation
+```
+```
+inurl:/graphql-request
+```
+```
+inurl:/graphql-response
+```
+```
+inurl:/graphql-error
+```
+```
+inurl:/graphql-validation
+```
+```
+inurl:/graphql-execution
+```
+```
+inurl:/graphql-introspection
+```
+```
+inurl:/graphql-scalar
+```
+```
+inurl:/graphql-enum
+```
+```
+inurl:/graphql-input
+```
+```
+inurl:/graphql-interface
+```
+```
+inurl:/graphql-union
+```
+```
+inurl:/graphql-directive
+```
+
+
+---
