@@ -258,6 +258,30 @@ intext:"Powered by" & intext:Drupal & inurl:user
 site:*/joomla/login
 ```
 
+### Google Drive <!--omit-->
+```
+site:http://drive.google.com inurl:folder "example[.]com"
+```
+```
+site:http://drive.google.com inurl:open "example[.]com"
+```
+```
+site:http://docs.google.com inurl:d "example[.]com"
+```
+```
+site:http://drive.google.com "confidential" "example[.]com"
+```
+```
+site:http://docs.google.com inurl:d filetype:docx "example[.]com"
+```
+### Google Drive V2 <!--omit-->
+```
+site:http://drive.google.com inurl:folder 
+site:http://drive.google.com inurl:open
+site:http://docs.google.com inurl:d 
+site:http://drive.google.com "confidential" 
+site:http://docs.google.com inurl:d filetype:docx 
+```
 
 ---
 
